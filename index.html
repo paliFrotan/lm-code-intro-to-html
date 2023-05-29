@@ -5,73 +5,100 @@
     	<meta charset="UTF-8">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
     	<title>Tech Returners Surgery: Home</title>
+
+    <script language="javascript" type="text/javascript">
+        function clearText(field)
+        {
+            if (field.defaultValue == field.value) field.value = '';
+            else if (field.value == '') field.value = field.defaultValue;
+        }
+    </script>
+
 	</head>
+<body>
 
-	<body>
-		<header>
-			<a href="#">Tech Returners Surgery</a>
-			<a href="tel:03330509138">0333 050 9138</a>
-		</header>
+<div id="templatemo_top_wrapper">
+	<div id="templatemo_top">
+		<div id="templatemo_header">
+            
+            <header><h1><a href="#">Tech Returners Surgery</a>
+                <a href="tel:03330509138">0333 050 9138</a></h1>
+            </header>
+            
+        </div> <!-- end of header -->
+        <div id="templatemo_middle">
+        	<div id="templatemo_menu">
+                <ul>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Patient Information</a></li>
+                    <li><a href="#">Well-being Centre</a></li>
+                </ul>
+                <div id="search_box">
+                    <form action="#" method="post">
+                        <input type="text" value="Enter keyword here..." name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+                        <input type="submit" name="Search" value="" id="searchbutton" title="Search" />
+                    </form>
+                </div>
+                <div class="cleaner"></div>
+            </div> <!-- end of templatemo_menu -->
+            <section id="mid_content">
+                    <h4>Welcome to the Tech Returners Surgery!</h4>
+        
+                    <strong> The Tech Returners Surgery,<br>
+                        115 Mancunian Way,<br>
+                        Manchester,<br>
+                        M20 3PX
+                    </strong>
+            </section>
+        </div> <!-- end of middle -->
+	</div> <!-- end of top -->
+</div> <!-- end of top wrapper -->
 
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Patient Information</a></li>
-				<li><a href="#">Well-being Centre</a></li>
-			</ul>
-		</nav>
-
-		<label for="site-search">Search...</label>
-		<input type="search" id="site-search" name="search" aria-label="Search through site content">
-		<button>Search</button>
-
-		<section>
-			<h3><strong>COVID Restriction Update</strong></h3>
-
-			<p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
-				staff, we will continue to do so.</p>
-
-			<p>From the <strong>19th July 2021 nothing will change at the Surgery</strong> Patients will <em>still
-					need</em> to
-				wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
-				wear PPE.
-			</p>
-
-			<p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
-		</section>
-
-
-		<section>
-			<h1>Welcome to the Tech Returners Surgery!</h1>
-
-			<img alt="Surgery Picture" src="./surgery.png">
-
-			<strong> The Tech Returners Surgery,<br>
-				115 Mancunian Way,<br>
-				Manchester,<br>
-				M20 3PX
-			</strong>
-		</section>
-
-		<section>
-			<h2>How to use Ask My Doc?</h2>
-
-			<video controls width="250">
-				<source src="#" type="video/webm">
-				<source src="#" type="video/mp4">
-
-				<track kind="captions" srclang="en" src="./ask_my_doc_transcript.vtt" default>
-
-				Sorry, your browser doesn't support embedded videos.
-			</video>
-		</section>
-
-
-		<section>
-			<h2>Need advice or have some feedback for us?</h2>
+<main>
+    <div class="col_w600 float_l">
+    	<div class="content_box">
+            <section>
+                <h3><strong>COVID Restriction Update</strong></h3>
+    
+                <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
+                    staff, we will continue to do so.</p>
+                <!-- <div class="carousel"> -->
+                       
+                <p>From the <em>19th July 2021 nothing will change at the Surgery</em> Patients will <strong>still
+                        need</strong> to
+                    wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
+                    wear PPE.
+                </p>
+            <!-- </div> -->
+                <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
+            </section>
+            <div class="cleaner"></div>
+		</div>
+        
+        <div class="col_w260_l">
+        	<section>
+                <h4>How to use Ask My Doc?</h4>
+    
+                <video controls width="250">
+                    <source src="#" type="video/webm">
+                    <source src="#" type="video/mp4">
+    
+                    <track kind="captions" srclang="en" src="./ask_my_doc_transcript.vtt" default>
+    
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </section>
+        </div>
+        <div class="cleaner"></div>
+    </div>
+    
+    <div class="col_w300 float_r">
+    	<section>
+			<h6>Need advice or have some feedback for us?</h6>
 
 			<form>
 				<fieldset>
@@ -121,5 +148,24 @@
 				</fieldset>
 			</form>
 		</section>
-	</body>
+    </div>
+    <div class="cleaner"></div>
+</main> <!-- end of main -->
+
+<div id="templatemo_footer_wrapper_01">
+	<div id="templatemo_footer_wrapper_02">
+    	<div id="templatemo_footer">
+        	
+            
+            <div class="center">
+                Copyright © 2023 <a href="#">Pali Frotan</a>  
+            </div>
+        </div>
+    </div> 
+<!-- end of footer wrapper -->
+</div> 
+
+<!-- end of footer wrapper 01 -->
+
+</body>
 </html>
